@@ -68,7 +68,7 @@ class Heap():
         for i in range(self.size//2, -1, -1):
             self.sift_down(i)
 
-
+  
 def main():
     n = int(input())
     data = list(map(int, input().split()))
